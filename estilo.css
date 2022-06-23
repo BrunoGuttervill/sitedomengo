@@ -1,0 +1,97 @@
+body{
+    background-image: linear-gradient(to bottom right, black, rgb(124,0,0),rgb(214, 0,0));
+}
+.pagina{
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    position: fixed;
+    background-image: linear-gradient(to bottom right, black, rgb(124,0,0),rgb(214, 0,0));
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 97%;
+    height: 10%;
+    border-radius: 10px;
+    padding: 1%;
+}
+.logo{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 180%;
+}
+.botoes{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items:center;      
+}
+.botoes button{
+    border-style: solid;
+    background-color: rgb(99, 0, 0);
+    border-color: rgb(90, 89, 89);
+    margin-left: 5%;
+    margin-right: 7%;
+    height: 70%;
+    width: 50%;
+    border-radius: 15px;
+}
+.botoes button a{
+    color: aliceblue;
+    font-size: large;
+    font-family: Georgia, serif;
+}
+.info{
+    margin-top: 15%;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+}
+.texto00{
+    font-size: 150%;
+    color: aliceblue;
+    width: 50%;
+    font-family: 'Courier New', monospace;
+    margin-top: 10%;
+}
+#txt1{
+    margin-left: 15%;
+}
+#txt2{
+    margin-left: 25%;
+}
+.image{
+    margin-left: 20%;
+}
+#tit,.contatos h2{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+#tsobre{
+    color: white;
+    font-family: 'Courier New', monospace;
+    text-align: justify;
+    font-size: 25px;
+}
+.proj{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 10%;
+}
+.proj h2{
+    font-size: 60px;
+    font-family: Garamond, serif;
+    background-color: rgba(48, 0, 0, 0.5);
+}
+.proj h4{
+    font-family: 'Courier New', monospace;
+    text-align: left;
+}
+.contatos{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Garamond, serif;
+}
